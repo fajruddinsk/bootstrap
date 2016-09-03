@@ -1,0 +1,248 @@
+.glyphicon.glyphicon-plus {
+    position: absolute;
+    opacity: 0;
+    top: 26px;
+    right: 0;
+    left: 50%;
+    width: 13px;
+    margin-left: -6px;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #fff;
+}
+element {
+    background: rgb(77, 177, 226) none repeat scroll 0% 0%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 40px;
+    padding-left: 15px;
+    width: 79px;
+    height: 92px;
+}
+.page-header{position: relative;
+z-index: 100;
+height: 112px;
+margin: 0 auto;
+background: #fff;
+}
+.logo {
+max-width: 50px;
+max-height: 50%;
+}
+
+main-nav li .active {
+    background: #4db1e2;
+}
+.padding-carousel{
+  padding-top: 10px;
+}
+.padding-top-up{
+padding-bottom: 45px;"
+}
+.intropadding{
+margin-top: -120px;
+}
+.div-r{
+background: rgba(0,143,213,0.9);
+}
+.div-padding{
+  padding-bottom: 70px;
+}
+.text-center {
+  text-align: center;
+}
+.row-hight-width{
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+}
+.glyphicon {
+    font-size: 50px;
+}
+.pic {
+    position: relative;
+    height: 120px;
+}
+p {
+   font-size: 14px;
+   line-height: 19px;
+}
+p {
+    text-indent: 2em;
+}
+.text{
+  background: rgba(0,143,213,0.9);
+  position: relative;
+  padding: 15px 30px 51px;
+}
+
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 5px solid #1136d5;
+}
+dt:hover {
+    color: #008fd5;
+}
+
+.glyphicon.glyphicon-glass{
+display: block;
+font-size: 96px;
+line-height: 120px;
+text-align: center;
+text-shadow: 2px 2px 0 rgba(0,0,0,0.15);
+color: #fff;
+}
+.glyphicon.glyphicon-globe{
+display: block;
+font-size: 96px;
+line-height: 120px;
+text-align: center;
+text-shadow: 2px 2px 0 rgba(0,0,0,0.15);
+color: #fff;
+}
+.glyphicon.glyphicon-heart {
+display: block;
+font-size: 96px;
+line-height: 120px;
+text-align: center;
+text-shadow: 2px 2px 0 rgba(0,0,0,0.15);
+color: #fff;
+}
+.fa {
+font-family: FontAwesome;
+}
+.glyphicon.glyphicon-home {
+    display: block;
+    font-size: 96px;
+    line-height: 120px;
+    text-align: center;
+    text-shadow: 2px 2px 0 rgba(0,0,0,0.15);
+    color: #fff;
+}
+.multi-item-carousel{
+  .carousel-inner{
+    .item{
+      transition: 500ms ease-in-out left;
+    }
+    .active{
+      &.left{
+        left:-33%;
+      }
+      &.right{
+        left:33%;
+      }
+    }
+    .next{
+      left: 33%;
+    }
+    .prev{
+      left: -33%;
+    }
+    @media all and (transform-3d), (-webkit-transform-3d) {
+      > .item{
+        // use your favourite prefixer here
+        transition: 500ms ease-in-out all;
+        backface-visibility: visible;
+        transform: none!important;
+      }
+    }
+  }
+  .carouse-control{
+    &.left, &.right{
+      background-image: none;
+    }
+  }
+}
+.grid-row {
+    width: 1170px;
+    margin: 0 auto 60px;
+}
+.grid-col:first-child {
+    margin-left: 0;
+}
+.grid-col-4 {
+    width: 370px;
+}
+.grid-col {
+    float: left;
+    margin-left: 30px;
+}
+.widget-title {
+    border-left-color: #008fd5;
+}
+.widget-title {
+    margin-bottom: 20px;
+    padding-left: 7px;
+    border-left-width: 3px;
+    border-left-style: solid;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000;
+}
+/* nevbar value  */
+.main-nav {
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    margin-right: -585px;
+}
+.main-nav li .active {
+    background: #4db1e2;
+}
+.main-nav li .active {
+    z-index: 51;
+    color: #fff;
+}
+.main-nav li a {
+    position: relative;
+    display: block;
+    padding: 49px 20px 28px;
+    font-size: 15px;
+    line-height: 15px;
+    transform: translate3d(0,0,0);
+}
+nav{margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    background: none;
+    font: inherit;
+    vertical-align: baseline;
+}
+.main-nav li a .fa-plus, .main-nav li a .fa-heart-o {
+    position: absolute;
+    opacity: 0;
+    top: 26px;
+    right: 0;
+    left: 50%;
+    width: 13px;
+    margin-left: -6px;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #fff;
+}
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+  }
+  a, button {
+    cursor: pointer;
+}
+.sticky .sticky-container {
+    height: 100%;
+    position: relative;
+    top: 0;
+    z-index: 100;
+}
+.navbar{
+    position:relative;
+    min-height:55px
+}
